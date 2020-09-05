@@ -1,0 +1,29 @@
+[32mSymfony CLI[39m version [33mv4.2.10[39m (c) 2017-2019 Symfony SAS
+Symfony CLI helps developers manage projects, from local code to remote infrastructure
+
+These are common commands used in various situations:
+
+[33mWork on a project locally[39m
+
+  [32mnew[39m             Create a new Symfony project
+  [32mserve[39m           Run a local web server
+  [32mserver:stop[39m     Stop the local web server
+  [32msecurity:check[39m  Check security issues in project dependencies
+
+[33mManage a project on Cloud[39m
+
+  [32mlogin[39m        Log in with your SymfonyConnect account
+  [32minit[39m         Initialize a new project using templates
+  [32mlink[39m         Link current git repository to a SymfonyCloud project
+  [32mprojects[39m     List active projects
+  [32menvs[39m         List environments
+  [32menv:create[39m   Create an environment
+  [32mtunnel:open[39m  Open SSH tunnels to the app's services
+  [32mssh[39m          Open an SSH connection to the app container
+  [32mdeploy[39m       Deploy an environment
+  [32mdomains[39m      List domains
+  [32mvars[39m         List variables
+  [32muser:add[39m     Add a user to the project
+
+Show all commands with [32msymfony.exe help[39m,
+Get help for a specific command with [32msymfony.exe help COMMAND[39m.
